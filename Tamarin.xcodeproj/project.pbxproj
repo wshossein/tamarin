@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB26562A191EAA220008C752 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB265629191EAA220008C752 /* Foundation.framework */; };
+		DB26562C191EAA220008C752 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB26562B191EAA220008C752 /* CoreGraphics.framework */; };
+		DB26562E191EAA220008C752 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB26562D191EAA220008C752 /* UIKit.framework */; };
+		DB265634191EAA220008C752 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB265632191EAA220008C752 /* InfoPlist.strings */; };
+		DB265636191EAA220008C752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB265635191EAA220008C752 /* main.m */; };
+		DB26563A191EAA220008C752 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB265639191EAA220008C752 /* AppDelegate.m */; };
+		DB26563D191EAA220008C752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB26563B191EAA220008C752 /* Main.storyboard */; };
+		DB265640191EAA220008C752 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB26563F191EAA220008C752 /* FirstViewController.m */; };
+		DB265643191EAA220008C752 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB265642191EAA220008C752 /* SecondViewController.m */; };
+		DB265645191EAA230008C752 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB265644191EAA230008C752 /* Images.xcassets */; };
+		DB26564C191EAA230008C752 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB26564B191EAA230008C752 /* XCTest.framework */; };
+		DB26564D191EAA230008C752 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB265629191EAA220008C752 /* Foundation.framework */; };
+		DB26564E191EAA230008C752 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB26562D191EAA220008C752 /* UIKit.framework */; };
+		DB265656191EAA230008C752 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB265654191EAA230008C752 /* InfoPlist.strings */; };
+		DB265658191EAA230008C752 /* TamarinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB265657191EAA230008C752 /* TamarinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB26564F191EAA230008C752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB26561E191EAA220008C752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB265625191EAA220008C752;
+			remoteInfo = Tamarin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB265626191EAA220008C752 /* Tamarin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamarin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB265629191EAA220008C752 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB26562B191EAA220008C752 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB26562D191EAA220008C752 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB265631191EAA220008C752 /* Tamarin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tamarin-Info.plist"; sourceTree = "<group>"; };
+		DB265633191EAA220008C752 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB265635191EAA220008C752 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB265637191EAA220008C752 /* Tamarin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tamarin-Prefix.pch"; sourceTree = "<group>"; };
+		DB265638191EAA220008C752 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB265639191EAA220008C752 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB26563C191EAA220008C752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB26563E191EAA220008C752 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DB26563F191EAA220008C752 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DB265641191EAA220008C752 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DB265642191EAA220008C752 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DB265644191EAA230008C752 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB26564A191EAA230008C752 /* TamarinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamarinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB26564B191EAA230008C752 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB265653191EAA230008C752 /* TamarinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TamarinTests-Info.plist"; sourceTree = "<group>"; };
+		DB265655191EAA230008C752 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB265657191EAA230008C752 /* TamarinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamarinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB265623191EAA220008C752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB26562C191EAA220008C752 /* CoreGraphics.framework in Frameworks */,
+				DB26562E191EAA220008C752 /* UIKit.framework in Frameworks */,
+				DB26562A191EAA220008C752 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB265647191EAA230008C752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB26564C191EAA230008C752 /* XCTest.framework in Frameworks */,
+				DB26564E191EAA230008C752 /* UIKit.framework in Frameworks */,
+				DB26564D191EAA230008C752 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB26561D191EAA220008C752 = {
+			isa = PBXGroup;
+			children = (
+				DB26562F191EAA220008C752 /* Tamarin */,
+				DB265651191EAA230008C752 /* TamarinTests */,
+				DB265628191EAA220008C752 /* Frameworks */,
+				DB265627191EAA220008C752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB265627191EAA220008C752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB265626191EAA220008C752 /* Tamarin.app */,
+				DB26564A191EAA230008C752 /* TamarinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB265628191EAA220008C752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB265629191EAA220008C752 /* Foundation.framework */,
+				DB26562B191EAA220008C752 /* CoreGraphics.framework */,
+				DB26562D191EAA220008C752 /* UIKit.framework */,
+				DB26564B191EAA230008C752 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB26562F191EAA220008C752 /* Tamarin */ = {
+			isa = PBXGroup;
+			children = (
+				DB265638191EAA220008C752 /* AppDelegate.h */,
+				DB265639191EAA220008C752 /* AppDelegate.m */,
+				DB26563B191EAA220008C752 /* Main.storyboard */,
+				DB26563E191EAA220008C752 /* FirstViewController.h */,
+				DB26563F191EAA220008C752 /* FirstViewController.m */,
+				DB265641191EAA220008C752 /* SecondViewController.h */,
+				DB265642191EAA220008C752 /* SecondViewController.m */,
+				DB265644191EAA230008C752 /* Images.xcassets */,
+				DB265630191EAA220008C752 /* Supporting Files */,
+			);
+			path = Tamarin;
+			sourceTree = "<group>";
+		};
+		DB265630191EAA220008C752 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB265631191EAA220008C752 /* Tamarin-Info.plist */,
+				DB265632191EAA220008C752 /* InfoPlist.strings */,
+				DB265635191EAA220008C752 /* main.m */,
+				DB265637191EAA220008C752 /* Tamarin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB265651191EAA230008C752 /* TamarinTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB265657191EAA230008C752 /* TamarinTests.m */,
+				DB265652191EAA230008C752 /* Supporting Files */,
+			);
+			path = TamarinTests;
+			sourceTree = "<group>";
+		};
+		DB265652191EAA230008C752 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB265653191EAA230008C752 /* TamarinTests-Info.plist */,
+				DB265654191EAA230008C752 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB265625191EAA220008C752 /* Tamarin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB26565B191EAA230008C752 /* Build configuration list for PBXNativeTarget "Tamarin" */;
+			buildPhases = (
+				DB265622191EAA220008C752 /* Sources */,
+				DB265623191EAA220008C752 /* Frameworks */,
+				DB265624191EAA220008C752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tamarin;
+			productName = Tamarin;
+			productReference = DB265626191EAA220008C752 /* Tamarin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB265649191EAA230008C752 /* TamarinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB26565E191EAA230008C752 /* Build configuration list for PBXNativeTarget "TamarinTests" */;
+			buildPhases = (
+				DB265646191EAA230008C752 /* Sources */,
+				DB265647191EAA230008C752 /* Frameworks */,
+				DB265648191EAA230008C752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB265650191EAA230008C752 /* PBXTargetDependency */,
+			);
+			name = TamarinTests;
+			productName = TamarinTests;
+			productReference = DB26564A191EAA230008C752 /* TamarinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB26561E191EAA220008C752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nappix Apps";
+				TargetAttributes = {
+					DB265649191EAA230008C752 = {
+						TestTargetID = DB265625191EAA220008C752;
+					};
+				};
+			};
+			buildConfigurationList = DB265621191EAA220008C752 /* Build configuration list for PBXProject "Tamarin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB26561D191EAA220008C752;
+			productRefGroup = DB265627191EAA220008C752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB265625191EAA220008C752 /* Tamarin */,
+				DB265649191EAA230008C752 /* TamarinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB265624191EAA220008C752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB265645191EAA230008C752 /* Images.xcassets in Resources */,
+				DB265634191EAA220008C752 /* InfoPlist.strings in Resources */,
+				DB26563D191EAA220008C752 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB265648191EAA230008C752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB265656191EAA230008C752 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB265622191EAA220008C752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB265643191EAA220008C752 /* SecondViewController.m in Sources */,
+				DB26563A191EAA220008C752 /* AppDelegate.m in Sources */,
+				DB265640191EAA220008C752 /* FirstViewController.m in Sources */,
+				DB265636191EAA220008C752 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB265646191EAA230008C752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB265658191EAA230008C752 /* TamarinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB265650191EAA230008C752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB265625191EAA220008C752 /* Tamarin */;
+			targetProxy = DB26564F191EAA230008C752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB265632191EAA220008C752 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB265633191EAA220008C752 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB26563B191EAA220008C752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB26563C191EAA220008C752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB265654191EAA230008C752 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB265655191EAA230008C752 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB265659191EAA230008C752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB26565A191EAA230008C752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB26565C191EAA230008C752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tamarin/Tamarin-Prefix.pch";
+				INFOPLIST_FILE = "Tamarin/Tamarin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB26565D191EAA230008C752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tamarin/Tamarin-Prefix.pch";
+				INFOPLIST_FILE = "Tamarin/Tamarin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB26565F191EAA230008C752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tamarin.app/Tamarin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tamarin/Tamarin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TamarinTests/TamarinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB265660191EAA230008C752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tamarin.app/Tamarin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tamarin/Tamarin-Prefix.pch";
+				INFOPLIST_FILE = "TamarinTests/TamarinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB265621191EAA220008C752 /* Build configuration list for PBXProject "Tamarin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB265659191EAA230008C752 /* Debug */,
+				DB26565A191EAA230008C752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB26565B191EAA230008C752 /* Build configuration list for PBXNativeTarget "Tamarin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB26565C191EAA230008C752 /* Debug */,
+				DB26565D191EAA230008C752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB26565E191EAA230008C752 /* Build configuration list for PBXNativeTarget "TamarinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB26565F191EAA230008C752 /* Debug */,
+				DB265660191EAA230008C752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB26561E191EAA220008C752 /* Project object */;
+}
