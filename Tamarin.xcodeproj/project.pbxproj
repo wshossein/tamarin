@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		380F0F352AD543AD99959930 /* libPods-Tamarin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFD212BA1744A27BC8842EB /* libPods-Tamarin.a */; };
+		DB17F71F193591730075AEFB /* PollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17F71D193591730075AEFB /* PollCell.m */; };
+		DB17F7221935941C0075AEFB /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = DB17F7211935941C0075AEFB /* heart.png */; };
+		DB17F725193595270075AEFB /* Microsoft-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB17F723193595270075AEFB /* Microsoft-logo.png */; };
+		DB17F726193595270075AEFB /* silver-apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB17F724193595270075AEFB /* silver-apple-logo.png */; };
+		DB17F7281935958B0075AEFB /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB17F7271935958B0075AEFB /* photo.jpg */; };
+		DB17F72E1935A1F00075AEFB /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = DB17F7291935A1F00075AEFB /* dots.png */; };
+		DB17F72F1935A1F00075AEFB /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = DB17F72A1935A1F00075AEFB /* green.png */; };
+		DB17F7301935A1F00075AEFB /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = DB17F72B1935A1F00075AEFB /* profile.png */; };
+		DB17F7311935A1F00075AEFB /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = DB17F72C1935A1F00075AEFB /* red.png */; };
+		DB17F7321935A1F00075AEFB /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = DB17F72D1935A1F00075AEFB /* tree.png */; };
+		DB17F7351935AD4B0075AEFB /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17F7341935AD4B0075AEFB /* HomeVC.m */; };
+		DB17F7391935B0EA0075AEFB /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB17F7381935B0EA0075AEFB /* ProfileVC.m */; };
 		DB26562A191EAA220008C752 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB265629191EAA220008C752 /* Foundation.framework */; };
 		DB26562C191EAA220008C752 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB26562B191EAA220008C752 /* CoreGraphics.framework */; };
 		DB26562E191EAA220008C752 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB26562D191EAA220008C752 /* UIKit.framework */; };
@@ -15,8 +27,6 @@
 		DB265636191EAA220008C752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB265635191EAA220008C752 /* main.m */; };
 		DB26563A191EAA220008C752 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB265639191EAA220008C752 /* AppDelegate.m */; };
 		DB26563D191EAA220008C752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB26563B191EAA220008C752 /* Main.storyboard */; };
-		DB265640191EAA220008C752 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB26563F191EAA220008C752 /* FirstViewController.m */; };
-		DB265643191EAA220008C752 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB265642191EAA220008C752 /* SecondViewController.m */; };
 		DB265645191EAA230008C752 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB265644191EAA230008C752 /* Images.xcassets */; };
 		DB26564C191EAA230008C752 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB26564B191EAA230008C752 /* XCTest.framework */; };
 		DB26564D191EAA230008C752 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB265629191EAA220008C752 /* Foundation.framework */; };
@@ -36,6 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB17F71C193591730075AEFB /* PollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PollCell.h; path = Cells/PollCell.h; sourceTree = "<group>"; };
+		DB17F71D193591730075AEFB /* PollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PollCell.m; path = Cells/PollCell.m; sourceTree = "<group>"; };
+		DB17F7211935941C0075AEFB /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Resources/heart.png; sourceTree = "<group>"; };
+		DB17F723193595270075AEFB /* Microsoft-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Microsoft-logo.png"; path = "Resources/Microsoft-logo.png"; sourceTree = "<group>"; };
+		DB17F724193595270075AEFB /* silver-apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "silver-apple-logo.png"; path = "Resources/silver-apple-logo.png"; sourceTree = "<group>"; };
+		DB17F7271935958B0075AEFB /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.jpg; path = Resources/photo.jpg; sourceTree = "<group>"; };
+		DB17F7291935A1F00075AEFB /* dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dots.png; path = Resources/dots.png; sourceTree = "<group>"; };
+		DB17F72A1935A1F00075AEFB /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = Resources/green.png; sourceTree = "<group>"; };
+		DB17F72B1935A1F00075AEFB /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = Resources/profile.png; sourceTree = "<group>"; };
+		DB17F72C1935A1F00075AEFB /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = Resources/red.png; sourceTree = "<group>"; };
+		DB17F72D1935A1F00075AEFB /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree.png; path = Resources/tree.png; sourceTree = "<group>"; };
+		DB17F7331935AD4B0075AEFB /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = ViewControllers/HomeVC.h; sourceTree = "<group>"; };
+		DB17F7341935AD4B0075AEFB /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVC.m; path = ViewControllers/HomeVC.m; sourceTree = "<group>"; };
+		DB17F7371935B0EA0075AEFB /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileVC.h; path = ViewControllers/ProfileVC.h; sourceTree = "<group>"; };
+		DB17F7381935B0EA0075AEFB /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileVC.m; path = ViewControllers/ProfileVC.m; sourceTree = "<group>"; };
 		DB265626191EAA220008C752 /* Tamarin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamarin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB265629191EAA220008C752 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB26562B191EAA220008C752 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,10 +72,6 @@
 		DB265638191EAA220008C752 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB265639191EAA220008C752 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DB26563C191EAA220008C752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB26563E191EAA220008C752 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DB26563F191EAA220008C752 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DB265641191EAA220008C752 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DB265642191EAA220008C752 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DB265644191EAA230008C752 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB26564A191EAA230008C752 /* TamarinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamarinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB26564B191EAA230008C752 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -89,8 +110,28 @@
 		DB17F71B1934E7640075AEFB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB17F7291935A1F00075AEFB /* dots.png */,
+				DB17F72A1935A1F00075AEFB /* green.png */,
+				DB17F72B1935A1F00075AEFB /* profile.png */,
+				DB17F72C1935A1F00075AEFB /* red.png */,
+				DB17F72D1935A1F00075AEFB /* tree.png */,
+				DB17F7271935958B0075AEFB /* photo.jpg */,
+				DB17F723193595270075AEFB /* Microsoft-logo.png */,
+				DB17F724193595270075AEFB /* silver-apple-logo.png */,
+				DB17F7211935941C0075AEFB /* heart.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		DB17F7361935B08F0075AEFB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB17F7331935AD4B0075AEFB /* HomeVC.h */,
+				DB17F7341935AD4B0075AEFB /* HomeVC.m */,
+				DB17F7371935B0EA0075AEFB /* ProfileVC.h */,
+				DB17F7381935B0EA0075AEFB /* ProfileVC.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		DB26561D191EAA220008C752 = {
@@ -128,16 +169,13 @@
 		DB26562F191EAA220008C752 /* Tamarin */ = {
 			isa = PBXGroup;
 			children = (
+				DB17F7361935B08F0075AEFB /* View Controllers */,
 				DB17F71B1934E7640075AEFB /* Resources */,
 				DB265662191EC0C10008C752 /* Cells */,
 				DB265661191EC01D0008C752 /* Objects */,
 				DB265638191EAA220008C752 /* AppDelegate.h */,
 				DB265639191EAA220008C752 /* AppDelegate.m */,
 				DB26563B191EAA220008C752 /* Main.storyboard */,
-				DB26563E191EAA220008C752 /* FirstViewController.h */,
-				DB26563F191EAA220008C752 /* FirstViewController.m */,
-				DB265641191EAA220008C752 /* SecondViewController.h */,
-				DB265642191EAA220008C752 /* SecondViewController.m */,
 				DB265644191EAA230008C752 /* Images.xcassets */,
 				DB265630191EAA220008C752 /* Supporting Files */,
 			);
@@ -183,6 +221,8 @@
 		DB265662191EC0C10008C752 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				DB17F71C193591730075AEFB /* PollCell.h */,
+				DB17F71D193591730075AEFB /* PollCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -266,8 +306,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB265645191EAA230008C752 /* Images.xcassets in Resources */,
+				DB17F72E1935A1F00075AEFB /* dots.png in Resources */,
+				DB17F7281935958B0075AEFB /* photo.jpg in Resources */,
+				DB17F7221935941C0075AEFB /* heart.png in Resources */,
+				DB17F726193595270075AEFB /* silver-apple-logo.png in Resources */,
 				DB265634191EAA220008C752 /* InfoPlist.strings in Resources */,
+				DB17F72F1935A1F00075AEFB /* green.png in Resources */,
+				DB17F7301935A1F00075AEFB /* profile.png in Resources */,
+				DB17F7311935A1F00075AEFB /* red.png in Resources */,
+				DB17F7321935A1F00075AEFB /* tree.png in Resources */,
 				DB26563D191EAA220008C752 /* Main.storyboard in Resources */,
+				DB17F725193595270075AEFB /* Microsoft-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,9 +368,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB265643191EAA220008C752 /* SecondViewController.m in Sources */,
+				DB17F71F193591730075AEFB /* PollCell.m in Sources */,
+				DB17F7391935B0EA0075AEFB /* ProfileVC.m in Sources */,
+				DB17F7351935AD4B0075AEFB /* HomeVC.m in Sources */,
 				DB26563A191EAA220008C752 /* AppDelegate.m in Sources */,
-				DB265640191EAA220008C752 /* FirstViewController.m in Sources */,
 				DB265636191EAA220008C752 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
