@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00A1A4148CDF42E1AC53FD85"
+               BlueprintIdentifier = "5A83866C0D9C46369BA3D13A"
                BuildableName = "libPods-Tamarin-SSToolkit.a"
                BlueprintName = "Pods-Tamarin-SSToolkit"
                ReferencedContainer = "container:Pods.xcodeproj">

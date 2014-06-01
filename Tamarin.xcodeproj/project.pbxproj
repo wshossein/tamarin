@@ -33,6 +33,21 @@
 		DB26564E191EAA230008C752 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB26562D191EAA220008C752 /* UIKit.framework */; };
 		DB265656191EAA230008C752 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB265654191EAA230008C752 /* InfoPlist.strings */; };
 		DB265658191EAA230008C752 /* TamarinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB265657191EAA230008C752 /* TamarinTests.m */; };
+		DB32C835193A92C200B00C6A /* Poll.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C834193A92C200B00C6A /* Poll.m */; };
+		DB32C838193A938D00B00C6A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C837193A938D00B00C6A /* User.m */; };
+		DB32C83B193A947300B00C6A /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C83A193A947300B00C6A /* Notification.m */; };
+		DB32C83E193AAD6500B00C6A /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C83D193AAD6500B00C6A /* Comment.m */; };
+		DB32C841193AADD700B00C6A /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C840193AADD700B00C6A /* SettingsVC.m */; };
+		DB32C844193AAE2200B00C6A /* NotificationSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C843193AAE2200B00C6A /* NotificationSettingsVC.m */; };
+		DB32C847193AB09A00B00C6A /* NotificationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C846193AB09A00B00C6A /* NotificationsVC.m */; };
+		DB32C84A193AB11D00B00C6A /* FriendsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C849193AB11D00B00C6A /* FriendsVC.m */; };
+		DB32C84D193AB13A00B00C6A /* ShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C84C193AB13A00B00C6A /* ShareVC.m */; };
+		DB32C850193AB16B00B00C6A /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C84F193AB16B00B00C6A /* LoginVC.m */; };
+		DB32C853193AB1A100B00C6A /* EditProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C852193AB1A100B00C6A /* EditProfileVC.m */; };
+		DB32C856193AB1EF00B00C6A /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C855193AB1EF00B00C6A /* SearchVC.m */; };
+		DB32C859193AB21200B00C6A /* NotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C858193AB21200B00C6A /* NotificationCell.m */; };
+		DB32C85C193AB26800B00C6A /* CreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C85B193AB26800B00C6A /* CreateVC.m */; };
+		DB32C85E193AB2D300B00C6A /* tamarinDB in Resources */ = {isa = PBXBuildFile; fileRef = DB32C85D193AB2D300B00C6A /* tamarinDB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +93,35 @@
 		DB265653191EAA230008C752 /* TamarinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TamarinTests-Info.plist"; sourceTree = "<group>"; };
 		DB265655191EAA230008C752 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB265657191EAA230008C752 /* TamarinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamarinTests.m; sourceTree = "<group>"; };
+		DB32C833193A92C200B00C6A /* Poll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Poll.h; path = Objects/Poll.h; sourceTree = "<group>"; };
+		DB32C834193A92C200B00C6A /* Poll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Poll.m; path = Objects/Poll.m; sourceTree = "<group>"; };
+		DB32C836193A938D00B00C6A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Objects/User.h; sourceTree = "<group>"; };
+		DB32C837193A938D00B00C6A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Objects/User.m; sourceTree = "<group>"; };
+		DB32C839193A947300B00C6A /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notification.h; path = Objects/Notification.h; sourceTree = "<group>"; };
+		DB32C83A193A947300B00C6A /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notification.m; path = Objects/Notification.m; sourceTree = "<group>"; };
+		DB32C83C193AAD6500B00C6A /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Comment.h; path = Objects/Comment.h; sourceTree = "<group>"; };
+		DB32C83D193AAD6500B00C6A /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Comment.m; path = Objects/Comment.m; sourceTree = "<group>"; };
+		DB32C83F193AADD700B00C6A /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsVC.h; path = ViewControllers/SettingsVC.h; sourceTree = "<group>"; };
+		DB32C840193AADD700B00C6A /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsVC.m; path = ViewControllers/SettingsVC.m; sourceTree = "<group>"; };
+		DB32C842193AAE2200B00C6A /* NotificationSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationSettingsVC.h; path = ViewControllers/NotificationSettingsVC.h; sourceTree = "<group>"; };
+		DB32C843193AAE2200B00C6A /* NotificationSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationSettingsVC.m; path = ViewControllers/NotificationSettingsVC.m; sourceTree = "<group>"; };
+		DB32C845193AB09A00B00C6A /* NotificationsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsVC.h; path = ViewControllers/NotificationsVC.h; sourceTree = "<group>"; };
+		DB32C846193AB09A00B00C6A /* NotificationsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsVC.m; path = ViewControllers/NotificationsVC.m; sourceTree = "<group>"; };
+		DB32C848193AB11D00B00C6A /* FriendsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsVC.h; path = ViewControllers/FriendsVC.h; sourceTree = "<group>"; };
+		DB32C849193AB11D00B00C6A /* FriendsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsVC.m; path = ViewControllers/FriendsVC.m; sourceTree = "<group>"; };
+		DB32C84B193AB13A00B00C6A /* ShareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareVC.h; path = ViewControllers/ShareVC.h; sourceTree = "<group>"; };
+		DB32C84C193AB13A00B00C6A /* ShareVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareVC.m; path = ViewControllers/ShareVC.m; sourceTree = "<group>"; };
+		DB32C84E193AB16B00B00C6A /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = ViewControllers/LoginVC.h; sourceTree = "<group>"; };
+		DB32C84F193AB16B00B00C6A /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = ViewControllers/LoginVC.m; sourceTree = "<group>"; };
+		DB32C851193AB1A100B00C6A /* EditProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProfileVC.h; path = ViewControllers/EditProfileVC.h; sourceTree = "<group>"; };
+		DB32C852193AB1A100B00C6A /* EditProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileVC.m; path = ViewControllers/EditProfileVC.m; sourceTree = "<group>"; };
+		DB32C854193AB1EF00B00C6A /* SearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchVC.h; path = ViewControllers/SearchVC.h; sourceTree = "<group>"; };
+		DB32C855193AB1EF00B00C6A /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchVC.m; path = ViewControllers/SearchVC.m; sourceTree = "<group>"; };
+		DB32C857193AB21200B00C6A /* NotificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationCell.h; path = Cells/NotificationCell.h; sourceTree = "<group>"; };
+		DB32C858193AB21200B00C6A /* NotificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationCell.m; path = Cells/NotificationCell.m; sourceTree = "<group>"; };
+		DB32C85A193AB26800B00C6A /* CreateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateVC.h; path = ViewControllers/CreateVC.h; sourceTree = "<group>"; };
+		DB32C85B193AB26800B00C6A /* CreateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateVC.m; path = ViewControllers/CreateVC.m; sourceTree = "<group>"; };
+		DB32C85D193AB2D300B00C6A /* tamarinDB */ = {isa = PBXFileReference; lastKnownFileType = file; path = tamarinDB; sourceTree = "<group>"; };
 		FDFD212BA1744A27BC8842EB /* libPods-Tamarin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tamarin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC37536026A4617B537688A /* Pods-Tamarin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tamarin.xcconfig"; path = "Pods/Pods-Tamarin.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +154,7 @@
 		DB17F71B1934E7640075AEFB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB32C85D193AB2D300B00C6A /* tamarinDB */,
 				DB17F7291935A1F00075AEFB /* dots.png */,
 				DB17F72A1935A1F00075AEFB /* green.png */,
 				DB17F72B1935A1F00075AEFB /* profile.png */,
@@ -130,6 +175,24 @@
 				DB17F7341935AD4B0075AEFB /* HomeVC.m */,
 				DB17F7371935B0EA0075AEFB /* ProfileVC.h */,
 				DB17F7381935B0EA0075AEFB /* ProfileVC.m */,
+				DB32C83F193AADD700B00C6A /* SettingsVC.h */,
+				DB32C840193AADD700B00C6A /* SettingsVC.m */,
+				DB32C845193AB09A00B00C6A /* NotificationsVC.h */,
+				DB32C846193AB09A00B00C6A /* NotificationsVC.m */,
+				DB32C842193AAE2200B00C6A /* NotificationSettingsVC.h */,
+				DB32C843193AAE2200B00C6A /* NotificationSettingsVC.m */,
+				DB32C848193AB11D00B00C6A /* FriendsVC.h */,
+				DB32C849193AB11D00B00C6A /* FriendsVC.m */,
+				DB32C84B193AB13A00B00C6A /* ShareVC.h */,
+				DB32C84C193AB13A00B00C6A /* ShareVC.m */,
+				DB32C84E193AB16B00B00C6A /* LoginVC.h */,
+				DB32C84F193AB16B00B00C6A /* LoginVC.m */,
+				DB32C851193AB1A100B00C6A /* EditProfileVC.h */,
+				DB32C852193AB1A100B00C6A /* EditProfileVC.m */,
+				DB32C854193AB1EF00B00C6A /* SearchVC.h */,
+				DB32C855193AB1EF00B00C6A /* SearchVC.m */,
+				DB32C85A193AB26800B00C6A /* CreateVC.h */,
+				DB32C85B193AB26800B00C6A /* CreateVC.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -214,6 +277,14 @@
 		DB265661191EC01D0008C752 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				DB32C833193A92C200B00C6A /* Poll.h */,
+				DB32C834193A92C200B00C6A /* Poll.m */,
+				DB32C836193A938D00B00C6A /* User.h */,
+				DB32C837193A938D00B00C6A /* User.m */,
+				DB32C839193A947300B00C6A /* Notification.h */,
+				DB32C83A193A947300B00C6A /* Notification.m */,
+				DB32C83C193AAD6500B00C6A /* Comment.h */,
+				DB32C83D193AAD6500B00C6A /* Comment.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -223,6 +294,8 @@
 			children = (
 				DB17F71C193591730075AEFB /* PollCell.h */,
 				DB17F71D193591730075AEFB /* PollCell.m */,
+				DB32C857193AB21200B00C6A /* NotificationCell.h */,
+				DB32C858193AB21200B00C6A /* NotificationCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -313,6 +386,7 @@
 				DB265634191EAA220008C752 /* InfoPlist.strings in Resources */,
 				DB17F72F1935A1F00075AEFB /* green.png in Resources */,
 				DB17F7301935A1F00075AEFB /* profile.png in Resources */,
+				DB32C85E193AB2D300B00C6A /* tamarinDB in Resources */,
 				DB17F7311935A1F00075AEFB /* red.png in Resources */,
 				DB17F7321935A1F00075AEFB /* tree.png in Resources */,
 				DB26563D191EAA220008C752 /* Main.storyboard in Resources */,
@@ -368,11 +442,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB32C83B193A947300B00C6A /* Notification.m in Sources */,
+				DB32C841193AADD700B00C6A /* SettingsVC.m in Sources */,
+				DB32C850193AB16B00B00C6A /* LoginVC.m in Sources */,
+				DB32C84D193AB13A00B00C6A /* ShareVC.m in Sources */,
+				DB32C859193AB21200B00C6A /* NotificationCell.m in Sources */,
 				DB17F71F193591730075AEFB /* PollCell.m in Sources */,
+				DB32C847193AB09A00B00C6A /* NotificationsVC.m in Sources */,
+				DB32C838193A938D00B00C6A /* User.m in Sources */,
+				DB32C85C193AB26800B00C6A /* CreateVC.m in Sources */,
 				DB17F7391935B0EA0075AEFB /* ProfileVC.m in Sources */,
+				DB32C835193A92C200B00C6A /* Poll.m in Sources */,
 				DB17F7351935AD4B0075AEFB /* HomeVC.m in Sources */,
+				DB32C856193AB1EF00B00C6A /* SearchVC.m in Sources */,
+				DB32C853193AB1A100B00C6A /* EditProfileVC.m in Sources */,
 				DB26563A191EAA220008C752 /* AppDelegate.m in Sources */,
+				DB32C83E193AAD6500B00C6A /* Comment.m in Sources */,
+				DB32C844193AAE2200B00C6A /* NotificationSettingsVC.m in Sources */,
 				DB265636191EAA220008C752 /* main.m in Sources */,
+				DB32C84A193AB11D00B00C6A /* FriendsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

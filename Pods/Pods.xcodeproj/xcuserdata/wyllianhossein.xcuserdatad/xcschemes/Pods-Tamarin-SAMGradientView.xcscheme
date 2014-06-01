@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5ED199AACFF4F0FB5BE91DE"
+               BlueprintIdentifier = "A8ECAAD700E64E63B37AC903"
                BuildableName = "libPods-Tamarin-SAMGradientView.a"
                BlueprintName = "Pods-Tamarin-SAMGradientView"
                ReferencedContainer = "container:Pods.xcodeproj">

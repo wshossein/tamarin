@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F2BEDC3ACDB2407597CDBD22"
+               BlueprintIdentifier = "DB59DADADCE54142AD53BF27"
                BuildableName = "libPods-Tamarin-SAMWebView.a"
                BlueprintName = "Pods-Tamarin-SAMWebView"
                ReferencedContainer = "container:Pods.xcodeproj">

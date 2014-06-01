@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67D8958FBC36463F88279F23"
+               BlueprintIdentifier = "FF478864BC634DDFA52EF1A9"
                BuildableName = "libPods-Tamarin-SAMRateLimit.a"
                BlueprintName = "Pods-Tamarin-SAMRateLimit"
                ReferencedContainer = "container:Pods.xcodeproj">

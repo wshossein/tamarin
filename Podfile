@@ -9,6 +9,7 @@ target "Tamarin" do
     pod 'MBProgressHUD', '~> 0.8'
     pod 'Shimmer', '~> 1.0'
     pod 'FMDB', '~> 2.3'
+    pod 'pop', '~> 1.0'
 end
 
 target "TamarinTests" do

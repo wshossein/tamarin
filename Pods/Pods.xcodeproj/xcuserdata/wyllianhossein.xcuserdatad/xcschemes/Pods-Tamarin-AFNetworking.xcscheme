@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3FDB7434E27B4A76B94EADB9"
+               BlueprintIdentifier = "AB47032721C94B5796B9E218"
                BuildableName = "libPods-Tamarin-AFNetworking.a"
                BlueprintName = "Pods-Tamarin-AFNetworking"
                ReferencedContainer = "container:Pods.xcodeproj">
