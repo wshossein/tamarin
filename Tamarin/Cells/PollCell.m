@@ -9,6 +9,7 @@
 #import "PollCell.h"
 
 @implementation PollCell
+@synthesize btnMore;
 
 - (void)awakeFromNib
 {
@@ -22,4 +23,57 @@
     // Configure the view for the selected state
 }
 
+- (IBAction)btnClickMore:(id)sender
+{
+    UIActionSheet *popup = [[UIActionSheet alloc] initWithTitle:@"Select Sharing option:" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Report" otherButtonTitles:
+                            @"Comments",
+                            @"Share",
+                            @"Up",
+                            nil];
+    [popup showInView:[UIApplication sharedApplication].keyWindow];
+}
+
+- (void)actionSheet:(UIActionSheet *)popup clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    UIAlertView *alert;
+    switch (buttonIndex)
+    {
+        case 0:
+            alert = [[UIAlertView alloc] initWithTitle:nil
+                                               message:@"Report"
+                                              delegate:nil
+                                     cancelButtonTitle:@"OK"
+                                     otherButtonTitles:nil];
+            break;
+        case 1:
+            alert = [[UIAlertView alloc] initWithTitle:nil
+                                               message:@"Comments"
+                                              delegate:nil
+                                     cancelButtonTitle:@"OK"
+                                     otherButtonTitles:nil];
+            break;
+        case 2:
+            alert = [[UIAlertView alloc] initWithTitle:nil
+                                               message:@"Share"
+                                              delegate:nil
+                                     cancelButtonTitle:@"OK"
+                                     otherButtonTitles:nil];
+            break;
+        case 3:
+            alert = [[UIAlertView alloc] initWithTitle:nil
+                                               message:@"Up"
+                                              delegate:nil
+                                     cancelButtonTitle:@"OK"
+                                     otherButtonTitles:nil];
+            break;
+        default:
+            alert = [[UIAlertView alloc] initWithTitle:nil
+                                               message:@"NONE"
+                                              delegate:nil
+                                     cancelButtonTitle:@"OK"
+                                     otherButtonTitles:nil];
+            break;
+    }
+    [alert show];
+}
 @end

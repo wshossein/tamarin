@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PollCell : UITableViewCell
+@interface PollCell : UITableViewCell <UIActionSheetDelegate>
 {
     
 }
@@ -22,5 +22,6 @@
 
 @property (weak, nonatomic) IBOutlet UIView *infoView;
 
+- (IBAction)btnClickMore:(id)sender;
 
 @end

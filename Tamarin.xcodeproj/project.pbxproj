@@ -48,6 +48,7 @@
 		DB32C859193AB21200B00C6A /* NotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C858193AB21200B00C6A /* NotificationCell.m */; };
 		DB32C85C193AB26800B00C6A /* CreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C85B193AB26800B00C6A /* CreateVC.m */; };
 		DB32C85E193AB2D300B00C6A /* tamarinDB in Resources */ = {isa = PBXBuildFile; fileRef = DB32C85D193AB2D300B00C6A /* tamarinDB */; };
+		DB6CDF51193ACEB9005785E7 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDF50193ACEB9005785E7 /* UserCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		DB32C85A193AB26800B00C6A /* CreateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateVC.h; path = ViewControllers/CreateVC.h; sourceTree = "<group>"; };
 		DB32C85B193AB26800B00C6A /* CreateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateVC.m; path = ViewControllers/CreateVC.m; sourceTree = "<group>"; };
 		DB32C85D193AB2D300B00C6A /* tamarinDB */ = {isa = PBXFileReference; lastKnownFileType = file; path = tamarinDB; sourceTree = "<group>"; };
+		DB6CDF4F193ACEB9005785E7 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCell.h; path = Cells/UserCell.h; sourceTree = "<group>"; };
+		DB6CDF50193ACEB9005785E7 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCell.m; path = Cells/UserCell.m; sourceTree = "<group>"; };
 		FDFD212BA1744A27BC8842EB /* libPods-Tamarin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tamarin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC37536026A4617B537688A /* Pods-Tamarin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tamarin.xcconfig"; path = "Pods/Pods-Tamarin.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,14 +174,9 @@
 		DB17F7361935B08F0075AEFB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DB17F7331935AD4B0075AEFB /* HomeVC.h */,
-				DB17F7341935AD4B0075AEFB /* HomeVC.m */,
-				DB17F7371935B0EA0075AEFB /* ProfileVC.h */,
-				DB17F7381935B0EA0075AEFB /* ProfileVC.m */,
+				DB6CDF52193AE376005785E7 /* Tab Bar */,
 				DB32C83F193AADD700B00C6A /* SettingsVC.h */,
 				DB32C840193AADD700B00C6A /* SettingsVC.m */,
-				DB32C845193AB09A00B00C6A /* NotificationsVC.h */,
-				DB32C846193AB09A00B00C6A /* NotificationsVC.m */,
 				DB32C842193AAE2200B00C6A /* NotificationSettingsVC.h */,
 				DB32C843193AAE2200B00C6A /* NotificationSettingsVC.m */,
 				DB32C848193AB11D00B00C6A /* FriendsVC.h */,
@@ -191,8 +189,6 @@
 				DB32C852193AB1A100B00C6A /* EditProfileVC.m */,
 				DB32C854193AB1EF00B00C6A /* SearchVC.h */,
 				DB32C855193AB1EF00B00C6A /* SearchVC.m */,
-				DB32C85A193AB26800B00C6A /* CreateVC.h */,
-				DB32C85B193AB26800B00C6A /* CreateVC.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -296,8 +292,25 @@
 				DB17F71D193591730075AEFB /* PollCell.m */,
 				DB32C857193AB21200B00C6A /* NotificationCell.h */,
 				DB32C858193AB21200B00C6A /* NotificationCell.m */,
+				DB6CDF4F193ACEB9005785E7 /* UserCell.h */,
+				DB6CDF50193ACEB9005785E7 /* UserCell.m */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		DB6CDF52193AE376005785E7 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				DB17F7331935AD4B0075AEFB /* HomeVC.h */,
+				DB17F7341935AD4B0075AEFB /* HomeVC.m */,
+				DB17F7371935B0EA0075AEFB /* ProfileVC.h */,
+				DB17F7381935B0EA0075AEFB /* ProfileVC.m */,
+				DB32C845193AB09A00B00C6A /* NotificationsVC.h */,
+				DB32C846193AB09A00B00C6A /* NotificationsVC.m */,
+				DB32C85A193AB26800B00C6A /* CreateVC.h */,
+				DB32C85B193AB26800B00C6A /* CreateVC.m */,
+			);
+			name = "Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +463,7 @@
 				DB17F71F193591730075AEFB /* PollCell.m in Sources */,
 				DB32C847193AB09A00B00C6A /* NotificationsVC.m in Sources */,
 				DB32C838193A938D00B00C6A /* User.m in Sources */,
+				DB6CDF51193ACEB9005785E7 /* UserCell.m in Sources */,
 				DB32C85C193AB26800B00C6A /* CreateVC.m in Sources */,
 				DB17F7391935B0EA0075AEFB /* ProfileVC.m in Sources */,
 				DB32C835193A92C200B00C6A /* Poll.m in Sources */,
