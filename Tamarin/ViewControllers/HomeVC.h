@@ -11,6 +11,6 @@
 @interface HomeVC : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tblTimeline;
-@property (weak, nonatomic) NSMutableArray* polls;
+@property (nonatomic) NSMutableArray* polls;
 
 @end

@@ -24,7 +24,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        
     }
     return self;
 }
@@ -34,7 +33,7 @@
     [super viewDidLoad];
     tblTimeline.delegate = self;
     tblTimeline.dataSource = self;
-    
+    polls = [NSMutableArray array];
     Poll* p1 = [Poll new]; p1.question = @"http://wiki.erepublik.com/images/7/70/-Chuck_Norris-_01.jpg";
     [polls addObject:p1];
 }

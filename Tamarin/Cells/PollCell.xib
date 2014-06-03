@@ -6,7 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="264" id="cpp-ZK-Nxj" userLabel="Notification Cell" customClass="CommentCell">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="pollcell" rowHeight="264" id="cpp-ZK-Nxj" userLabel="Notification Cell" customClass="PollCell">
             <rect key="frame" x="0.0" y="0.0" width="320" height="264"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cpp-ZK-Nxj" id="m9H-xy-8dB">
@@ -100,6 +100,9 @@
                                 <state key="normal" backgroundImage="dots.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnClickMore:" destination="cpp-ZK-Nxj" eventType="touchUpInside" id="Uzq-iz-Fuo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.1172990127" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -183,6 +186,15 @@
                     <constraint firstAttribute="bottom" secondItem="wAV-lw-Vvk" secondAttribute="bottom" constant="-1" id="uiQ-13-OQa"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="btnMore" destination="aZW-2t-Zl3" id="LBt-vI-OCn"/>
+                <outlet property="imgA" destination="c4D-fh-45m" id="cj9-Iu-7KU"/>
+                <outlet property="imgB" destination="DIA-t5-sU7" id="zP6-xO-y5Y"/>
+                <outlet property="imgProfile" destination="OPX-Ne-LCm" id="oLl-CF-Vmf"/>
+                <outlet property="infoView" destination="iMN-9Y-ulO" id="abi-ut-KEH"/>
+                <outlet property="lblQuestion" destination="EGq-1n-l8u" id="ugg-K7-v8C"/>
+                <outlet property="mainView" destination="wAV-lw-Vvk" id="f4L-TW-zvh"/>
+            </connections>
         </tableViewCell>
     </objects>
     <resources>
