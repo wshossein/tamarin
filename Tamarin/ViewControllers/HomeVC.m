@@ -8,6 +8,9 @@
 
 #import "HomeVC.h"
 #import "PollCell.h"
+#import "Poll.h"
+#import "User.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface HomeVC ()
 
@@ -15,13 +18,13 @@
 
 @implementation HomeVC
 
-@synthesize tblTimeline;
+@synthesize tblTimeline, polls;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        
     }
     return self;
 }
@@ -31,6 +34,9 @@
     [super viewDidLoad];
     tblTimeline.delegate = self;
     tblTimeline.dataSource = self;
+    
+    Poll* p1 = [Poll new]; p1.question = @"http://wiki.erepublik.com/images/7/70/-Chuck_Norris-_01.jpg";
+    [polls addObject:p1];
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,16 +58,21 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 2;
+    return [polls count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"pollcell";
-    PollCell *cell = (PollCell*) [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    //long row = [indexPath row];
-    
+    PollCell *cell = (PollCell*) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil)
+    {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"PollCell" owner:self options:nil];
+        cell = (PollCell *)[nib objectAtIndex:0];
+    }
+    long row = [indexPath row];
+    [cell.imgProfile setImageWithURL:[NSURL URLWithString:[[polls objectAtIndex:row] question]] placeholderImage:[UIImage imageNamed:@"second.jpg"]];
+
     return cell;
 }
 

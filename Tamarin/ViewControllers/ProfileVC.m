@@ -10,7 +10,7 @@
 #import "PollCell.h"
 #import "UserCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-#import "UIImageView+UIImageView_CircleView.h"
+#import "UIImageView+CircleView.h"
 
 
 @interface ProfileVC ()

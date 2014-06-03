@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@class User, Poll;
 @interface Notification : NSObject
+
+@property (nonatomic) NSString* text;
+@property (nonatomic) User* userCreator;
+@property (nonatomic) Poll* poll;
+@property (nonatomic) NSInteger date;
+@property (nonatomic) NSInteger tag;
 
 @end

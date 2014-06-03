@@ -48,8 +48,16 @@
 		DB32C859193AB21200B00C6A /* NotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C858193AB21200B00C6A /* NotificationCell.m */; };
 		DB32C85C193AB26800B00C6A /* CreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB32C85B193AB26800B00C6A /* CreateVC.m */; };
 		DB32C85E193AB2D300B00C6A /* tamarinDB in Resources */ = {isa = PBXBuildFile; fileRef = DB32C85D193AB2D300B00C6A /* tamarinDB */; };
+		DB5D66E0193D991300469DA6 /* PollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5D66DF193D991300469DA6 /* PollCell.xib */; };
+		DB5D66E6193DA72F00469DA6 /* Vote.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D66E5193DA72F00469DA6 /* Vote.m */; };
+		DB5D66E9193DAB3600469DA6 /* Option.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D66E8193DAB3600469DA6 /* Option.m */; };
+		DB5D66EC193DAE0200469DA6 /* NPXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D66EB193DAE0200469DA6 /* NPXCategory.m */; };
+		DB5D66EE193DB83000469DA6 /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5D66ED193DB83000469DA6 /* NotificationCell.xib */; };
+		DB5D66F0193DB84300469DA6 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5D66EF193DB84300469DA6 /* UserCell.xib */; };
+		DB5D66F4193DB86800469DA6 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5D66F2193DB86800469DA6 /* CommentCell.m */; };
+		DB5D66F5193DB86800469DA6 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5D66F3193DB86800469DA6 /* CommentCell.xib */; };
 		DB6CDF51193ACEB9005785E7 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDF50193ACEB9005785E7 /* UserCell.m */; };
-		DB6CDF55193C4BD2005785E7 /* UIImageView+UIImageView_CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDF54193C4BD2005785E7 /* UIImageView+UIImageView_CircleView.m */; };
+		DB6CDF55193C4BD2005785E7 /* UIImageView+CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDF54193C4BD2005785E7 /* UIImageView+CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,10 +132,22 @@
 		DB32C85A193AB26800B00C6A /* CreateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateVC.h; path = ViewControllers/CreateVC.h; sourceTree = "<group>"; };
 		DB32C85B193AB26800B00C6A /* CreateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateVC.m; path = ViewControllers/CreateVC.m; sourceTree = "<group>"; };
 		DB32C85D193AB2D300B00C6A /* tamarinDB */ = {isa = PBXFileReference; lastKnownFileType = file; path = tamarinDB; sourceTree = "<group>"; };
+		DB5D66DF193D991300469DA6 /* PollCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PollCell.xib; path = Cells/PollCell.xib; sourceTree = "<group>"; };
+		DB5D66E4193DA72F00469DA6 /* Vote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vote.h; path = Objects/Vote.h; sourceTree = "<group>"; };
+		DB5D66E5193DA72F00469DA6 /* Vote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vote.m; path = Objects/Vote.m; sourceTree = "<group>"; };
+		DB5D66E7193DAB3600469DA6 /* Option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Option.h; path = Objects/Option.h; sourceTree = "<group>"; };
+		DB5D66E8193DAB3600469DA6 /* Option.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Option.m; path = Objects/Option.m; sourceTree = "<group>"; };
+		DB5D66EA193DAE0200469DA6 /* NPXCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPXCategory.h; path = Objects/NPXCategory.h; sourceTree = "<group>"; };
+		DB5D66EB193DAE0200469DA6 /* NPXCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPXCategory.m; path = Objects/NPXCategory.m; sourceTree = "<group>"; };
+		DB5D66ED193DB83000469DA6 /* NotificationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotificationCell.xib; path = Cells/NotificationCell.xib; sourceTree = "<group>"; };
+		DB5D66EF193DB84300469DA6 /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserCell.xib; path = Cells/UserCell.xib; sourceTree = "<group>"; };
+		DB5D66F1193DB86800469DA6 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommentCell.h; path = Cells/CommentCell.h; sourceTree = "<group>"; };
+		DB5D66F2193DB86800469DA6 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommentCell.m; path = Cells/CommentCell.m; sourceTree = "<group>"; };
+		DB5D66F3193DB86800469DA6 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommentCell.xib; path = Cells/CommentCell.xib; sourceTree = "<group>"; };
 		DB6CDF4F193ACEB9005785E7 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCell.h; path = Cells/UserCell.h; sourceTree = "<group>"; };
 		DB6CDF50193ACEB9005785E7 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCell.m; path = Cells/UserCell.m; sourceTree = "<group>"; };
-		DB6CDF53193C4BD2005785E7 /* UIImageView+UIImageView_CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIImageView_CircleView.h"; sourceTree = "<group>"; };
-		DB6CDF54193C4BD2005785E7 /* UIImageView+UIImageView_CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIImageView_CircleView.m"; sourceTree = "<group>"; };
+		DB6CDF53193C4BD2005785E7 /* UIImageView+CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CircleView.h"; sourceTree = "<group>"; };
+		DB6CDF54193C4BD2005785E7 /* UIImageView+CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CircleView.m"; sourceTree = "<group>"; };
 		FDFD212BA1744A27BC8842EB /* libPods-Tamarin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tamarin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC37536026A4617B537688A /* Pods-Tamarin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tamarin.xcconfig"; path = "Pods/Pods-Tamarin.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,20 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				DB6CDF52193AE376005785E7 /* Tab Bar */,
-				DB32C83F193AADD700B00C6A /* SettingsVC.h */,
-				DB32C840193AADD700B00C6A /* SettingsVC.m */,
-				DB32C842193AAE2200B00C6A /* NotificationSettingsVC.h */,
-				DB32C843193AAE2200B00C6A /* NotificationSettingsVC.m */,
-				DB32C848193AB11D00B00C6A /* FriendsVC.h */,
-				DB32C849193AB11D00B00C6A /* FriendsVC.m */,
-				DB32C84B193AB13A00B00C6A /* ShareVC.h */,
-				DB32C84C193AB13A00B00C6A /* ShareVC.m */,
-				DB32C84E193AB16B00B00C6A /* LoginVC.h */,
-				DB32C84F193AB16B00B00C6A /* LoginVC.m */,
-				DB32C851193AB1A100B00C6A /* EditProfileVC.h */,
-				DB32C852193AB1A100B00C6A /* EditProfileVC.m */,
-				DB32C854193AB1EF00B00C6A /* SearchVC.h */,
-				DB32C855193AB1EF00B00C6A /* SearchVC.m */,
+				DB5D66DE193D987900469DA6 /* Complementary */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -240,8 +247,8 @@
 				DB26563B191EAA220008C752 /* Main.storyboard */,
 				DB265644191EAA230008C752 /* Images.xcassets */,
 				DB265630191EAA220008C752 /* Supporting Files */,
-				DB6CDF53193C4BD2005785E7 /* UIImageView+UIImageView_CircleView.h */,
-				DB6CDF54193C4BD2005785E7 /* UIImageView+UIImageView_CircleView.m */,
+				DB6CDF53193C4BD2005785E7 /* UIImageView+CircleView.h */,
+				DB6CDF54193C4BD2005785E7 /* UIImageView+CircleView.m */,
 			);
 			path = Tamarin;
 			sourceTree = "<group>";
@@ -286,6 +293,12 @@
 				DB32C83A193A947300B00C6A /* Notification.m */,
 				DB32C83C193AAD6500B00C6A /* Comment.h */,
 				DB32C83D193AAD6500B00C6A /* Comment.m */,
+				DB5D66E4193DA72F00469DA6 /* Vote.h */,
+				DB5D66E5193DA72F00469DA6 /* Vote.m */,
+				DB5D66E7193DAB3600469DA6 /* Option.h */,
+				DB5D66E8193DAB3600469DA6 /* Option.m */,
+				DB5D66EA193DAE0200469DA6 /* NPXCategory.h */,
+				DB5D66EB193DAE0200469DA6 /* NPXCategory.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -295,12 +308,39 @@
 			children = (
 				DB17F71C193591730075AEFB /* PollCell.h */,
 				DB17F71D193591730075AEFB /* PollCell.m */,
+				DB5D66DF193D991300469DA6 /* PollCell.xib */,
 				DB32C857193AB21200B00C6A /* NotificationCell.h */,
 				DB32C858193AB21200B00C6A /* NotificationCell.m */,
+				DB5D66ED193DB83000469DA6 /* NotificationCell.xib */,
 				DB6CDF4F193ACEB9005785E7 /* UserCell.h */,
 				DB6CDF50193ACEB9005785E7 /* UserCell.m */,
+				DB5D66EF193DB84300469DA6 /* UserCell.xib */,
+				DB5D66F1193DB86800469DA6 /* CommentCell.h */,
+				DB5D66F2193DB86800469DA6 /* CommentCell.m */,
+				DB5D66F3193DB86800469DA6 /* CommentCell.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		DB5D66DE193D987900469DA6 /* Complementary */ = {
+			isa = PBXGroup;
+			children = (
+				DB32C83F193AADD700B00C6A /* SettingsVC.h */,
+				DB32C840193AADD700B00C6A /* SettingsVC.m */,
+				DB32C842193AAE2200B00C6A /* NotificationSettingsVC.h */,
+				DB32C843193AAE2200B00C6A /* NotificationSettingsVC.m */,
+				DB32C848193AB11D00B00C6A /* FriendsVC.h */,
+				DB32C849193AB11D00B00C6A /* FriendsVC.m */,
+				DB32C84B193AB13A00B00C6A /* ShareVC.h */,
+				DB32C84C193AB13A00B00C6A /* ShareVC.m */,
+				DB32C84E193AB16B00B00C6A /* LoginVC.h */,
+				DB32C84F193AB16B00B00C6A /* LoginVC.m */,
+				DB32C851193AB1A100B00C6A /* EditProfileVC.h */,
+				DB32C852193AB1A100B00C6A /* EditProfileVC.m */,
+				DB32C854193AB1EF00B00C6A /* SearchVC.h */,
+				DB32C855193AB1EF00B00C6A /* SearchVC.m */,
+			);
+			name = Complementary;
 			sourceTree = "<group>";
 		};
 		DB6CDF52193AE376005785E7 /* Tab Bar */ = {
@@ -402,10 +442,14 @@
 				DB17F7221935941C0075AEFB /* heart.png in Resources */,
 				DB17F726193595270075AEFB /* silver-apple-logo.png in Resources */,
 				DB265634191EAA220008C752 /* InfoPlist.strings in Resources */,
+				DB5D66E0193D991300469DA6 /* PollCell.xib in Resources */,
 				DB17F72F1935A1F00075AEFB /* green.png in Resources */,
+				DB5D66F5193DB86800469DA6 /* CommentCell.xib in Resources */,
+				DB5D66EE193DB83000469DA6 /* NotificationCell.xib in Resources */,
 				DB17F7301935A1F00075AEFB /* profile.png in Resources */,
 				DB32C85E193AB2D300B00C6A /* tamarinDB in Resources */,
 				DB17F7311935A1F00075AEFB /* red.png in Resources */,
+				DB5D66F0193DB84300469DA6 /* UserCell.xib in Resources */,
 				DB17F7321935A1F00075AEFB /* tree.png in Resources */,
 				DB26563D191EAA220008C752 /* Main.storyboard in Resources */,
 				DB17F725193595270075AEFB /* Microsoft-logo.png in Resources */,
@@ -471,16 +515,20 @@
 				DB6CDF51193ACEB9005785E7 /* UserCell.m in Sources */,
 				DB32C85C193AB26800B00C6A /* CreateVC.m in Sources */,
 				DB17F7391935B0EA0075AEFB /* ProfileVC.m in Sources */,
+				DB5D66E9193DAB3600469DA6 /* Option.m in Sources */,
 				DB32C835193A92C200B00C6A /* Poll.m in Sources */,
+				DB5D66F4193DB86800469DA6 /* CommentCell.m in Sources */,
 				DB17F7351935AD4B0075AEFB /* HomeVC.m in Sources */,
 				DB32C856193AB1EF00B00C6A /* SearchVC.m in Sources */,
 				DB32C853193AB1A100B00C6A /* EditProfileVC.m in Sources */,
 				DB26563A191EAA220008C752 /* AppDelegate.m in Sources */,
+				DB5D66E6193DA72F00469DA6 /* Vote.m in Sources */,
 				DB32C83E193AAD6500B00C6A /* Comment.m in Sources */,
 				DB32C844193AAE2200B00C6A /* NotificationSettingsVC.m in Sources */,
+				DB5D66EC193DAE0200469DA6 /* NPXCategory.m in Sources */,
 				DB265636191EAA220008C752 /* main.m in Sources */,
 				DB32C84A193AB11D00B00C6A /* FriendsVC.m in Sources */,
-				DB6CDF55193C4BD2005785E7 /* UIImageView+UIImageView_CircleView.m in Sources */,
+				DB6CDF55193C4BD2005785E7 /* UIImageView+CircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

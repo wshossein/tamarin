@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView (UIImageView_CircleView)
+@interface UIImageView (CircleView)
 
 -(void) setCircleLayerWithBorder:(UIColor*) color;
 @end

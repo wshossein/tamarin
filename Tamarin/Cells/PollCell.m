@@ -7,13 +7,14 @@
 //
 
 #import "PollCell.h"
+#import "UIImageView+CircleView.h"
 
 @implementation PollCell
-@synthesize btnMore;
+@synthesize btnMore, imgProfile;
 
 - (void)awakeFromNib
 {
-    // Initialization code
+    [imgProfile setCircleLayerWithBorder:[UIColor greenColor]];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

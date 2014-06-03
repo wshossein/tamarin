@@ -8,6 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
+@class CLLocation;
+@class NPXCategory, User;
+
 @interface Poll : NSObject
+
+@property (nonatomic) NSString* question;
+@property (nonatomic) NSInteger credits;
+@property (nonatomic) NSArray* hashtags;
+@property (nonatomic) NSArray* mentions;
+@property (nonatomic) NPXCategory* category;
+@property (nonatomic) CLLocation* location;
+@property (nonatomic) NSString* pollID;
+@property (nonatomic) NSInteger dateCreation;
+@property (nonatomic) NSInteger tag;
+@property (nonatomic) NSMutableArray* favorites;
+@property (nonatomic) NSArray* options;
+@property (nonatomic) NSMutableArray* comments;
+@property (nonatomic) User* user;
 
 @end

@@ -1,14 +1,14 @@
 //
-//  UIImageView+UIImageView_CircleView.m
+//  UIImageView+CircleView.m
 //  Tamarin
 //
 //  Created by Wyllian Hossein on 6/2/14.
 //  Copyright (c) 2014 Nappix Apps. All rights reserved.
 //
 
-#import "UIImageView+UIImageView_CircleView.h"
+#import "UIImageView+CircleView.h"
 
-@implementation UIImageView (UIImageView_CircleView)
+@implementation UIImageView (CircleView)
 
 -(void)setCircleLayerWithBorder:(UIColor *)color
 {
