@@ -22,18 +22,15 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="B3c-Oa-ssd"/>
-                                    <constraint firstAttribute="height" constant="153" id="X3j-ld-Uk4"/>
+                                    <constraint firstAttribute="height" constant="153" id="N1s-NP-UK5"/>
+                                    <constraint firstAttribute="width" constant="150" id="sN1-F3-kj3"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Microsoft-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="DIA-t5-sU7">
                                 <rect key="frame" x="159" y="66" width="150" height="153"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="npA-Vf-RUG"/>
-                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OPX-Ne-LCm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OPX-Ne-LCm">
                                 <rect key="frame" x="6" y="10" width="53" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -90,7 +87,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZW-2t-Zl3">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZW-2t-Zl3">
                                 <rect key="frame" x="276" y="12" width="44" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -105,30 +102,30 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.1172990127" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.97809103260869568" green="0.97809103260869568" blue="0.97809103260869568" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="c4D-fh-45m" firstAttribute="top" secondItem="OPX-Ne-LCm" secondAttribute="bottom" constant="3" id="2Bv-I8-1SN"/>
-                            <constraint firstItem="DIA-t5-sU7" firstAttribute="leading" secondItem="9Nm-Ow-j81" secondAttribute="leading" id="6Tx-F6-vFV"/>
-                            <constraint firstItem="DIA-t5-sU7" firstAttribute="top" secondItem="aZW-2t-Zl3" secondAttribute="bottom" constant="10" id="8tZ-SU-uqX"/>
-                            <constraint firstItem="c4D-fh-45m" firstAttribute="leading" secondItem="ZWv-cG-wbX" secondAttribute="leading" id="Ap9-OO-rPJ"/>
-                            <constraint firstItem="c4D-fh-45m" firstAttribute="bottom" secondItem="DIA-t5-sU7" secondAttribute="bottom" id="Boo-7g-04G"/>
-                            <constraint firstItem="9Nm-Ow-j81" firstAttribute="leading" secondItem="c4D-fh-45m" secondAttribute="trailing" constant="3" id="NWu-Ib-piF"/>
-                            <constraint firstAttribute="bottom" secondItem="c4D-fh-45m" secondAttribute="bottom" constant="45" id="P4M-oj-A7d"/>
-                            <constraint firstItem="c4D-fh-45m" firstAttribute="top" secondItem="EGq-1n-l8u" secondAttribute="bottom" constant="8" symbolic="YES" id="TXG-pH-6ks"/>
-                            <constraint firstItem="c4D-fh-45m" firstAttribute="leading" secondItem="wAV-lw-Vvk" secondAttribute="leading" constant="6" id="UU4-HB-Awx"/>
-                            <constraint firstItem="DIA-t5-sU7" firstAttribute="trailing" secondItem="9Nm-Ow-j81" secondAttribute="trailing" id="YBE-HN-13x"/>
-                            <constraint firstItem="c4D-fh-45m" firstAttribute="trailing" secondItem="ZWv-cG-wbX" secondAttribute="trailing" id="Yd4-g6-Bfl"/>
+                            <constraint firstItem="c4D-fh-45m" firstAttribute="leading" secondItem="OPX-Ne-LCm" secondAttribute="leading" id="1DL-sI-hOb"/>
+                            <constraint firstItem="c4D-fh-45m" firstAttribute="leading" secondItem="wAV-lw-Vvk" secondAttribute="leading" constant="6" id="2rP-es-v9K"/>
+                            <constraint firstAttribute="bottom" secondItem="c4D-fh-45m" secondAttribute="bottom" constant="45" id="2zc-EU-eN9"/>
+                            <constraint firstItem="DIA-t5-sU7" firstAttribute="leading" secondItem="9Nm-Ow-j81" secondAttribute="leading" id="4Iv-Qs-FPO"/>
+                            <constraint firstItem="c4D-fh-45m" firstAttribute="bottom" secondItem="DIA-t5-sU7" secondAttribute="bottom" id="6tS-fT-Wor"/>
+                            <constraint firstItem="DIA-t5-sU7" firstAttribute="trailing" secondItem="9Nm-Ow-j81" secondAttribute="trailing" id="ClH-Rc-JMy"/>
+                            <constraint firstItem="c4D-fh-45m" firstAttribute="trailing" secondItem="ZWv-cG-wbX" secondAttribute="trailing" id="FGD-dQ-VWa"/>
+                            <constraint firstAttribute="trailing" secondItem="DIA-t5-sU7" secondAttribute="trailing" constant="11" id="Tlc-f3-yNF"/>
+                            <constraint firstItem="c4D-fh-45m" firstAttribute="top" secondItem="EGq-1n-l8u" secondAttribute="bottom" constant="8" symbolic="YES" id="WZ1-pX-ag3"/>
+                            <constraint firstItem="c4D-fh-45m" firstAttribute="top" secondItem="OPX-Ne-LCm" secondAttribute="bottom" constant="3" id="bhK-6Y-6LR"/>
                             <constraint firstAttribute="trailing" secondItem="aZW-2t-Zl3" secondAttribute="trailing" id="bsl-Mf-Kgv"/>
                             <constraint firstAttribute="bottom" secondItem="ZWv-cG-wbX" secondAttribute="bottom" constant="48" id="d1G-76-BMI"/>
                             <constraint firstItem="ZWv-cG-wbX" firstAttribute="bottom" secondItem="9Nm-Ow-j81" secondAttribute="bottom" id="d9V-jP-qLP"/>
                             <constraint firstItem="ZWv-cG-wbX" firstAttribute="top" secondItem="wAV-lw-Vvk" secondAttribute="top" constant="185" id="h46-kt-XWw"/>
-                            <constraint firstItem="c4D-fh-45m" firstAttribute="leading" secondItem="OPX-Ne-LCm" secondAttribute="leading" id="hlP-nf-tbW"/>
-                            <constraint firstItem="c4D-fh-45m" firstAttribute="top" secondItem="DIA-t5-sU7" secondAttribute="top" id="onz-Bl-svw"/>
+                            <constraint firstItem="c4D-fh-45m" firstAttribute="leading" secondItem="ZWv-cG-wbX" secondAttribute="leading" id="oIk-Wd-wyo"/>
+                            <constraint firstItem="DIA-t5-sU7" firstAttribute="top" secondItem="EGq-1n-l8u" secondAttribute="bottom" constant="8" symbolic="YES" id="pG0-1H-O0A"/>
+                            <constraint firstItem="9Nm-Ow-j81" firstAttribute="leading" secondItem="c4D-fh-45m" secondAttribute="trailing" constant="3" id="vU8-tM-QId"/>
                             <constraint firstItem="ZWv-cG-wbX" firstAttribute="top" secondItem="9Nm-Ow-j81" secondAttribute="top" id="xQX-8W-YOz"/>
                             <constraint firstItem="EGq-1n-l8u" firstAttribute="leading" secondItem="OPX-Ne-LCm" secondAttribute="trailing" constant="2" id="xyn-qs-gbA"/>
                         </constraints>
                     </view>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMN-9Y-ulO" userLabel="post">
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMN-9Y-ulO" userLabel="post">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="264"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -192,8 +189,14 @@
                 <outlet property="imgB" destination="DIA-t5-sU7" id="zP6-xO-y5Y"/>
                 <outlet property="imgProfile" destination="OPX-Ne-LCm" id="oLl-CF-Vmf"/>
                 <outlet property="infoView" destination="iMN-9Y-ulO" id="abi-ut-KEH"/>
+                <outlet property="lblFavoriteCount" destination="MbZ-du-vdm" id="X4k-hW-s9S"/>
+                <outlet property="lblOptionA" destination="BTI-Ly-1DG" id="c8d-iR-BW9"/>
+                <outlet property="lblOptionACount" destination="PY2-PU-UFY" id="DlP-GQ-Qh0"/>
+                <outlet property="lblOptionB" destination="uWd-3l-CbF" id="bcR-fd-F2t"/>
+                <outlet property="lblOptionBCount" destination="b7b-dS-rnv" id="v4R-dq-SWB"/>
                 <outlet property="lblQuestion" destination="EGq-1n-l8u" id="ugg-K7-v8C"/>
                 <outlet property="mainView" destination="wAV-lw-Vvk" id="f4L-TW-zvh"/>
+                <outlet property="txtQuickComment" destination="gDW-Xk-hsJ" id="tUb-pM-XYv"/>
             </connections>
         </tableViewCell>
     </objects>

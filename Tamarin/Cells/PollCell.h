@@ -21,6 +21,12 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnMore;
 
 @property (weak, nonatomic) IBOutlet UIView *infoView;
+@property (weak, nonatomic) IBOutlet UILabel *lblOptionA;
+@property (weak, nonatomic) IBOutlet UILabel *lblOptionB;
+@property (weak, nonatomic) IBOutlet UILabel *lblOptionACount;
+@property (weak, nonatomic) IBOutlet UILabel *lblOptionBCount;
+@property (weak, nonatomic) IBOutlet UILabel *lblFavoriteCount;
+@property (weak, nonatomic) IBOutlet UITextField *txtQuickComment;
 
 - (IBAction)btnClickMore:(id)sender;
 

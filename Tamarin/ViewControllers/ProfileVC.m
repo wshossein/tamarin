@@ -56,19 +56,28 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    long row = [indexPath row];
-    
+{    
     if (tableView == tblPeople)
     {
         static NSString *CellIdentifier = @"usercell";
         UserCell *cell = (UserCell*) [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+        if (cell == nil)
+        {
+            NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"UserCell" owner:self options:nil];
+            cell = (UserCell *)[nib objectAtIndex:0];
+        }
+        
         return cell;
     }
     else if (tableView == tblPolls)
     {
         static NSString *CellIdentifier = @"pollcell";
         PollCell *cell = (PollCell*) [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+        if (cell == nil)
+        {
+            NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"PollCell" owner:self options:nil];
+            cell = (PollCell *)[nib objectAtIndex:0];
+        }
         
         return cell;
     }

@@ -58,6 +58,7 @@
 		DB5D66F5193DB86800469DA6 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5D66F3193DB86800469DA6 /* CommentCell.xib */; };
 		DB6CDF51193ACEB9005785E7 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDF50193ACEB9005785E7 /* UserCell.m */; };
 		DB6CDF55193C4BD2005785E7 /* UIImageView+CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CDF54193C4BD2005785E7 /* UIImageView+CircleView.m */; };
+		DBD6862A193EE08B00794F40 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD68629193EE08B00794F40 /* Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,8 @@
 		DB6CDF50193ACEB9005785E7 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCell.m; path = Cells/UserCell.m; sourceTree = "<group>"; };
 		DB6CDF53193C4BD2005785E7 /* UIImageView+CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CircleView.h"; sourceTree = "<group>"; };
 		DB6CDF54193C4BD2005785E7 /* UIImageView+CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CircleView.m"; sourceTree = "<group>"; };
+		DBD68628193EE08B00794F40 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Manager.h; path = Objects/Manager.h; sourceTree = "<group>"; };
+		DBD68629193EE08B00794F40 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Manager.m; path = Objects/Manager.m; sourceTree = "<group>"; };
 		FDFD212BA1744A27BC8842EB /* libPods-Tamarin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tamarin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC37536026A4617B537688A /* Pods-Tamarin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tamarin.xcconfig"; path = "Pods/Pods-Tamarin.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -238,6 +241,7 @@
 		DB26562F191EAA220008C752 /* Tamarin */ = {
 			isa = PBXGroup;
 			children = (
+				DBD68627193EE04800794F40 /* Model */,
 				DB17F7361935B08F0075AEFB /* View Controllers */,
 				DB17F71B1934E7640075AEFB /* Resources */,
 				DB265662191EC0C10008C752 /* Cells */,
@@ -247,8 +251,6 @@
 				DB26563B191EAA220008C752 /* Main.storyboard */,
 				DB265644191EAA230008C752 /* Images.xcassets */,
 				DB265630191EAA220008C752 /* Supporting Files */,
-				DB6CDF53193C4BD2005785E7 /* UIImageView+CircleView.h */,
-				DB6CDF54193C4BD2005785E7 /* UIImageView+CircleView.m */,
 			);
 			path = Tamarin;
 			sourceTree = "<group>";
@@ -356,6 +358,17 @@
 				DB32C85B193AB26800B00C6A /* CreateVC.m */,
 			);
 			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		DBD68627193EE04800794F40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB6CDF53193C4BD2005785E7 /* UIImageView+CircleView.h */,
+				DB6CDF54193C4BD2005785E7 /* UIImageView+CircleView.m */,
+				DBD68628193EE08B00794F40 /* Manager.h */,
+				DBD68629193EE08B00794F40 /* Manager.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB32C83B193A947300B00C6A /* Notification.m in Sources */,
+				DBD6862A193EE08B00794F40 /* Manager.m in Sources */,
 				DB32C841193AADD700B00C6A /* SettingsVC.m in Sources */,
 				DB32C850193AB16B00B00C6A /* LoginVC.m in Sources */,
 				DB32C84D193AB13A00B00C6A /* ShareVC.m in Sources */,

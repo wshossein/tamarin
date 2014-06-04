@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @class CLLocation;
 
 typedef NS_ENUM(NSInteger, NSSex) {
@@ -16,11 +15,15 @@ typedef NS_ENUM(NSInteger, NSSex) {
     CHILD
 };
 
-
 @interface User : NSObject
 
 @property (nonatomic) UIImage* imageProfile;
 @property (nonatomic) UIImage* imageCover;
+//@property (nonatomic) ImageType imageProfileType;
+//@property (nonatomic) ImageType imageCoverType;
+@property (nonatomic) NSURL* imageProfileURL;
+@property (nonatomic) NSURL* imageCoverURL;
+
 @property (nonatomic) NSString* bio;
 @property (nonatomic) NSString* displayName;
 @property (nonatomic) NSString* username;
