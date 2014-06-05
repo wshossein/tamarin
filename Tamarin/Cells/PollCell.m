@@ -34,6 +34,28 @@
     [popup showInView:[UIApplication sharedApplication].keyWindow];
 }
 
+- (IBAction)swypeLeft:(id)sender
+{
+    NSLog(@"ESQUEERDA");
+}
+
+- (IBAction)swypeRight:(id)sender
+{
+    NSLog(@"direita");
+}
+
+- (IBAction)btnClickA:(id)sender
+{
+    NSLog(@"ESQUERDA");
+}
+
+
+- (IBAction)btnClickB:(id)sender
+{
+    NSLog(@"direita");
+
+}
+
 - (void)actionSheet:(UIActionSheet *)popup clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     UIAlertView *alert;

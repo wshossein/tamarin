@@ -29,5 +29,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtQuickComment;
 
 - (IBAction)btnClickMore:(id)sender;
+- (IBAction)swypeLeft:(id)sender;
+- (IBAction)swypeRight:(id)sender;
+- (IBAction)btnClickA:(id)sender;
+- (IBAction)btnClickB:(id)sender;
 
 @end
